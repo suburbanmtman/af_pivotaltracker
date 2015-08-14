@@ -1,0 +1,10 @@
+== README
+
+Generate CSV report from Pivotal Tracker for a project.
+
+Usage:
+
+rake pivotaltracker:fetch_data project_id=<pivotal project id> api_token=<your pivotal api token> [story_type=<feature|bug>]
+
+Generates a CSV (with header) containing story information for each story in the project of the story type (if specified).
+
